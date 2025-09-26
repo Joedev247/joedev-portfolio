@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-montserrat: "Montserrat", sans-serif;
+  }
+
+  html {
+    font-family: var(--font-montserrat);
+  }
+
+  body {
+    font-family: var(--font-montserrat);
+  }
+
+  * {
+    font-family: var(--font-montserrat);
+  }
+}
+
+/* hello */
