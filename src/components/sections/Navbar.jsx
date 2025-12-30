@@ -53,22 +53,23 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="fixed w-full z-50 flex justify-center px-4 sm:px-6 lg:px-8">
-      <nav
-        className={`w-full max-w-[1300px] mt-6  border border-orange-500/30 transition-all duration-300 ${
-          scrolled
-            ? "bg-gray-900/95 backdrop-blur-md shadow-2xl shadow-orange-500/20"
-            : "bg-gray-900/80 backdrop-blur-md shadow-xl shadow-orange-500/15"
-        }`}
-      >
-        <div className="px-4 py-3">
-          <div className="flex items-center justify-between">
+    <div className="fixed w-full z-50 flex justify-center">
+      <div className="w-full max-w-[1300px] px-4 sm:px-6 lg:px-8">
+        <nav
+          className={`w-full mt-6 border border-orange-500/30 transition-all duration-300 ${
+            scrolled
+              ? "bg-gray-900/95 backdrop-blur-md shadow-2xl shadow-orange-500/20"
+              : "bg-gray-900/80 backdrop-blur-md shadow-xl shadow-orange-500/15"
+          }`}
+        >
+          <div className="px-6">
+            <div className="flex items-center justify-between">
             {/* Enhanced Logo */}
             <motion.div
               className="flex items-center"
               whileHover={{ scale: 1.05 }}
             >
-              <a href="/" className="relative z-50 flex items-center gap-3">
+              <a href="/" className="relative z-50 flex items-center gap-4">
             <img
             src="/logo.png"
             alt="Joseph Jose"
@@ -167,6 +168,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
+    </div>
     </div>
   );
 };

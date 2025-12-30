@@ -374,7 +374,7 @@ const Hero = () => {
                 <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-orange-500/30 p-1">
                   <div className="w-full h-full rounded-full overflow-hidden bg-gradient-to-b from-orange-500/10 to-orange-600/10">
                     <img
-                      src="/joedev-profile.jpeg"
+                      src="/joedev247-pic.jpeg"
                       alt="Joseph Jose"
                       className="w-full h-full object-cover rounded-full"
                       style={{
