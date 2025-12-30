@@ -19,7 +19,7 @@ const AboutSection = () => {
           {/* Section Header */}
           <div className="text-center mb-16">
             <div className="flex items-center justify-center gap-2 mb-2">
-              <User className="w-5 h-5 text-orange-500" />
+              <User className="w-5 h-5 rounded-full text-orange-500" />
               <p className="text-orange-500 font-medium text-sm uppercase tracking-wider">
                 Get To Know More
               </p>
@@ -43,7 +43,7 @@ const AboutSection = () => {
                 <div className="group bg-gray-900/50 p-6  backdrop-blur-sm border border-gray-800/50 hover:border-orange-500/50 transition-all duration-300 hover:transform hover:scale-105">
                   <div className="flex items-center gap-4 mb-4">
                     <div className="p-3 bg-orange-500/10  group-hover:bg-orange-500/20 transition-colors">
-                      <Briefcase className="text-orange-500 w-6 h-6" />
+                      <Briefcase className="text-orange-500 rounded-full w-6 h-6" />
                     </div>
                     <h3 className="text-white font-semibold">Experience</h3>
                   </div>
@@ -57,7 +57,7 @@ const AboutSection = () => {
                 <div className="group bg-gray-900/50 p-6  backdrop-blur-sm border border-gray-800/50 hover:border-orange-500/50 transition-all duration-300 hover:transform hover:scale-105">
                   <div className="flex items-center gap-4 mb-4">
                     <div className="p-3 bg-orange-500/10  group-hover:bg-orange-500/20 transition-colors">
-                      <GraduationCap className="text-orange-500 w-6 h-6" />
+                      <GraduationCap className="text-orange-500 rounded-full w-6 h-6" />
                     </div>
                     <h3 className="text-white font-semibold">Education</h3>
                   </div>
@@ -71,19 +71,19 @@ const AboutSection = () => {
               {/* Description with Icons */}
               <div className="text-gray-300 space-y-6">
                 <div className="flex gap-4">
-                  <Code2 className="w-6 h-6 text-orange-500 flex-shrink-0 mt-1" />
+                  <Code2 className="w-6 h-6 text-orange-500 rounded-full flex-shrink-0 mt-1" />
                   <p className="leading-relaxed text-sm md:text-base text-justify">
                     As a dedicated fullstack developer with 3+ years of experience, I specialize in architecting and developing both client-side and server-side applications. I excel at translating complex business requirements into scalable, high-performance web solutions that drive measurable results for organizations.
                   </p>
                 </div>
                 <div className="flex gap-4">
-                  <Laptop className="w-6 h-6 text-orange-500 flex-shrink-0 mt-1" />
+                  <Laptop className="w-6 h-6 text-orange-500 rounded-full flex-shrink-0 mt-1" />
                   <p className="leading-relaxed text-sm md:text-base text-justify">
                     My technical expertise spans modern frameworks including React, Next.js, Node.js, and database technologies. I deliver robust applications that prioritize user experience, performance optimization, and maintainable code architecture while consistently meeting project deadlines.
                   </p>
                 </div>
                 <div className="flex gap-4">
-                  <Target className="w-6 h-6 text-orange-500 flex-shrink-0 mt-1" />
+                  <Target className="w-6 h-6 text-orange-500 rounded-full flex-shrink-0 mt-1" />
                   <p className="leading-relaxed text-sm md:text-base text-justify">
                     I am committed to staying at the forefront of emerging technologies and industry best practices. My goal is to create innovative digital solutions that not only meet current business needs but also position organizations for future growth and success.
                   </p>
@@ -102,16 +102,16 @@ const AboutSection = () => {
                 />
                 {/* Floating Achievement Icons */}
                 <div className="absolute top-4 left-4 bg-gray-900/90 p-3 rounded-full z-20">
-                  <Trophy className="w-6 h-6 text-orange-500" />
+                  <Trophy className="w-6 h-6 rounded-full text-orange-500" />
                 </div>
                 <div className="absolute top-4 right-4 bg-gray-900/90 p-3 rounded-full z-20">
-                  <Heart className="w-6 h-6 text-orange-500" />
+                  <Heart className="w-6 h-6 rounded-full text-orange-500" />
                 </div>
               </div>
               {/* Enhanced Experience Badge */}
               <div className="absolute -bottom-6 -right-6 bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 shadow-lg transform rotate-12 hover:rotate-0 transition-all duration-300">
                 <span className="text-sm font-semibold flex items-center gap-2">
-                  <Trophy className="w-4 h-4" />
+                  <Trophy className="w-4 h-4 rounded-full" />
                   3+ Years Experience
                 </span>
               </div>
