@@ -42,7 +42,7 @@ const AboutSection = () => {
                 {/* Experience Card */}
                 <div className="group bg-gray-900/50 p-6  backdrop-blur-sm border border-gray-800/50 hover:border-orange-500/50 transition-all duration-300 hover:transform hover:scale-105">
                   <div className="flex items-center gap-4 mb-4">
-                    <div className="p-3 bg-orange-500/10  group-hover:bg-orange-500/20 transition-colors">
+                    <div className="p-3 bg-orange-500/10 rounded-full group-hover:bg-orange-500/20 transition-colors">
                       <Briefcase className="text-orange-500 rounded-full w-6 h-6" />
                     </div>
                     <h3 className="text-white font-semibold">Experience</h3>
@@ -56,8 +56,8 @@ const AboutSection = () => {
                 {/* Education Card */}
                 <div className="group bg-gray-900/50 p-6  backdrop-blur-sm border border-gray-800/50 hover:border-orange-500/50 transition-all duration-300 hover:transform hover:scale-105">
                   <div className="flex items-center gap-4 mb-4">
-                    <div className="p-3 bg-orange-500/10  group-hover:bg-orange-500/20 transition-colors">
-                      <GraduationCap className="text-orange-500 rounded-full w-6 h-6" />
+                    <div className="p-3 bg-orange-500/10 rounded-full group-hover:bg-orange-500/20 transition-colors">
+                      <GraduationCap className="text-orange-500 w-6 h-6" />
                     </div>
                     <h3 className="text-white font-semibold">Education</h3>
                   </div>
