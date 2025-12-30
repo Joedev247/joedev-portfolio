@@ -14,7 +14,6 @@ import {
 const ProcessSection = () => {
   const processSteps = [
     {
-      icon: <Search className="w-8 h-8" />,
       step: "01",
       title: "Discovery",
       description: "We discuss your vision, goals, and requirements to understand exactly what you need.",
@@ -22,7 +21,6 @@ const ProcessSection = () => {
       deliverables: ["Project brief", "Technical requirements", "Timeline estimate", "Cost proposal"],
     },
     {
-      icon: <Palette className="w-8 h-8" />,
       step: "02", 
       title: "Design",
       description: "Creating wireframes and designs that align with your brand and user experience goals.",
@@ -30,7 +28,6 @@ const ProcessSection = () => {
       deliverables: ["Wireframes", "UI/UX design", "Design system", "Client approval"],
     },
     {
-      icon: <Code className="w-8 h-8" />,
       step: "03",
       title: "Development",
       description: "Building your application with clean, scalable code and regular progress updates.",
@@ -38,7 +35,6 @@ const ProcessSection = () => {
       deliverables: ["Weekly demos", "Code reviews", "Testing phases", "Documentation"],
     },
     {
-      icon: <Rocket className="w-8 h-8" />,
       step: "04",
       title: "Launch",
       description: "Deploying your project live with thorough testing and ongoing support included.",
@@ -102,10 +98,6 @@ const ProcessSection = () => {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               whileHover={{ y: -5 }}
             >
-              {/* Step Icon */}
-              <div className="flex items-center justify-center w-16 h-16 bg-gradient-to-r from-orange-500 to-orange-600 rounded-full mb-6 mx-auto shadow-lg">
-                {step.icon}
-              </div>
 
               {/* Step Number and Duration */}
               <div className="text-center mb-4">
